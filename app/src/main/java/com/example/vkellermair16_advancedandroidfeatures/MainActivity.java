@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
          Bitmap bitmap = (Bitmap)data.getExtras().get("data");
          Matrix matrix = new Matrix();
 
-         matrix.postRotate(-90);
+         //matrix.postRotate(-90);
 
         Bitmap bmpRotate = Bitmap.createBitmap(bitmap, 0, 0,
                 bitmap.getWidth(), bitmap.getHeight(),
